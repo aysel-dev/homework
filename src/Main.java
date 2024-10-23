@@ -8,6 +8,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         int score1 = sc.nextInt();
+
         if (score1>=0 && score1<=100){
             if (score1 >= 91) {
                 System.out.println("A");
